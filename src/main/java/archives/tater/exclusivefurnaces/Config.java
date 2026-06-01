@@ -14,5 +14,10 @@ public class Config {
     public static final ModConfigSpec.BooleanValue REMOVE_SMOKER_RECIPES = BUILDER
             .comment("Whether to remove smoker recipes from the furnace")
             .define("remove_smoker_recipes", true);
+
+    public static final ModConfigSpec.BooleanValue REMOVE_CAMPFIRE_RECIPES = BUILDER
+            .comment("Whether to remove campfire recipes from the furnace")
+            .define("remove_campfire_recipes", false);
+
     static final ModConfigSpec SPEC = BUILDER.build();
 }

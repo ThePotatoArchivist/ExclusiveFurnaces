@@ -55,6 +55,8 @@ public class RecipeManagerMixin {
                         removedRecipes.get().put(blastingRecipe.getIngredients().getFirst(), blastingRecipe.getResultItem(registries));
                 case SmokingRecipe smokingRecipe when Config.REMOVE_SMOKER_RECIPES.getAsBoolean() ->
                         removedRecipes.get().put(smokingRecipe.getIngredients().getFirst(), smokingRecipe.getResultItem(registries));
+                case CampfireCookingRecipe campfireRecipe when Config.REMOVE_CAMPFIRE_RECIPES.getAsBoolean() ->
+                        removedRecipes.get().put(campfireRecipe.getIngredients().getFirst(), campfireRecipe.getResultItem(registries));
                 default -> {}
             }
             action.accept(r);
