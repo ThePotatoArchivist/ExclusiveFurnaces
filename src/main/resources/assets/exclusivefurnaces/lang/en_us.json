@@ -1,0 +1,13 @@
+{
+  "itemGroup.exclusivefurnaces": "Example Mod Tab",
+  "block.exclusivefurnaces.example_block": "Example Block",
+  "item.exclusivefurnaces.example_item": "Example Item",
+
+  "exclusivefurnaces.configuration.title": "ExclusiveFurnaces Configs",
+  "exclusivefurnaces.configuration.section.exclusivefurnaces.common.toml": "ExclusiveFurnaces Configs",
+  "exclusivefurnaces.configuration.section.exclusivefurnaces.common.toml.title": "ExclusiveFurnaces Configs",
+  "exclusivefurnaces.configuration.items": "Item List",
+  "exclusivefurnaces.configuration.logDirtBlock": "Log Dirt Block",
+  "exclusivefurnaces.configuration.magicNumberIntroduction": "Magic Number Text",
+  "exclusivefurnaces.configuration.magicNumber": "Magic Number"
+}
