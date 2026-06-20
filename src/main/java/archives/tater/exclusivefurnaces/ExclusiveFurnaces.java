@@ -15,6 +15,6 @@ public class ExclusiveFurnaces {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public ExclusiveFurnaces(IEventBus modEventBus, ModContainer modContainer) {
-        modContainer.registerConfig(ModConfig.Type.STARTUP, Config.SPEC);
+        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC, MODID + ".toml");
     }
 }
