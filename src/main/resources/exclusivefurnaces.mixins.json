@@ -3,7 +3,8 @@
   "package": "archives.tater.exclusivefurnaces.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "RecipeManagerMixin"
+    "RecipeManagerMixin",
+    "SmeltItemFunctionMixin"
   ],
   "injectors": {
     "defaultRequire": 1
